@@ -1,0 +1,26 @@
+{
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "plugins": [
+        "emphasize",
+        "tbfed-pagefooter",
+        "disqus",
+        "toggle-chapters",
+        "codeblock-filename"
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright": "Copyright",
+            "modify_label": "Last Updated：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "disqus": {
+            "shortName": "loon-official"
+        }
+    }
+}
